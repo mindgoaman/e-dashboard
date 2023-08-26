@@ -1,5 +1,5 @@
-import HomePage from "./home/HomePage";
+import ProductsPage from "./products/ProductsPage";
 
 export {
-     HomePage
+     ProductsPage
 }
