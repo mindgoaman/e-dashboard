@@ -6,7 +6,7 @@ import '../pagestyles/PageStyles.css'
 
 const Header = () => {
     return (
-         <div className="App-header">
+         <div className={'App_header'}>
              <ul>
                  <li>
                      <Link to={'/'}>{Strings.PRODUCTS}</Link>
@@ -22,6 +22,12 @@ const Header = () => {
                  </li>
                  <li>
                      <Link to={'/profile'}>{Strings.PROFILE}</Link>
+                 </li>
+                 <li>
+                     <Link to={'/signup'}>{Strings.SIGNUP}</Link>
+                 </li>
+                 <li>
+                     <Link to={'/login'}>{Strings.LOGIN}</Link>
                  </li>
              </ul>
          </div>

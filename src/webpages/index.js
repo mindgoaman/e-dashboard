@@ -1,5 +1,9 @@
-import ProductsPage from "./products/ProductsPage";
+import ProductsPageContainer from "./products/ProductsPageContainer";
+import SignUpContainer from "./signuplogin/SignUpContainer";
+import LoginContainer from "./signuplogin/LoginContainer";
 
 export {
-     ProductsPage
+      ProductsPageContainer,
+      SignUpContainer,
+      LoginContainer
 }

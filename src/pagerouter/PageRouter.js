@@ -1,5 +1,9 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { ProductsPage } from '../webpages/index';
+import { 
+      SignUpContainer,
+      LoginContainer,
+      ProductsPageContainer
+      } from '../webpages/index';
 import {Header, Footer} from '../components/index';
 
 const Router = () => {
@@ -9,7 +13,15 @@ const Router = () => {
             <Routes>
                 <Route
                      path='/'
-                     element={<ProductsPage />}
+                     element={<ProductsPageContainer />}
+                />
+                <Route
+                     path='/signup'
+                     element={<SignUpContainer/>}
+                />
+                <Route
+                     path='/login'
+                     element={<LoginContainer/>}
                 />
                 <Route
                      path='/addproducts'

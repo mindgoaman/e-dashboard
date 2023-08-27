@@ -1,24 +1,49 @@
-.App-header {
+.App_header {
     background-color: skyblue;
     padding: 0px;
     margin: 0px;
     padding: 1px;
 }
 
-.App-header li{
+.App_header li{
     display: inline-block;
     padding-right: 25px;
 }
 
-.App-header li a{
+.App_header li a{
     color: white;
     text-decoration: none;
 }
 
-.app-footer {
+.App_footer {
     background-color: skyblue;
     position: absolute;
     bottom: 0px;
     text-align: center;
     width: 100%;
+}
+
+.input_box_container {
+     padding-left: 30%;
+}
+
+.input_box {
+     display: block;
+     margin: 25px;
+     padding: 7px;
+     width: 300px;
+     border: 1px solid skyblue;
+     border-radius: 5px;
+}
+
+.sign_up_button {
+     margin: 25px;
+     width: 150px;
+     padding: 8px;
+     background-color: skyblue;
+     border: 1px solid skyblue;
+     border-radius: 5px;
+     color: white;
+     cursor: pointer;
+
 }

@@ -3,7 +3,7 @@ import Strings from '../res/Strings';
 
 const Footer = () => {
     return (
-        <div className="app-footer">
+        <div className={'App_footer'}>
             <h6>
                 {Strings.E_DASHBOARD}
             </h6>
